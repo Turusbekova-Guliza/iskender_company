@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Gilroy", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  background: linear-gradient(107deg, #3186c3 6.46%, #004f86 68.08%);
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 50px 0;
+
+    .footer_menu_start {
+      width: 100%;
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+
+      .footer_block1,
+      .footer_block2,
+      .footer_block3,
+      .footer_block4 {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+      }
+
+      .footer_block2,
+      .footer_block3,
+      .footer_block4 {
+        padding: 0 0 0 30px;
+        width: 250px;
+        gap: 5px;
+        color: #fff;
+
+        .footer_title {
+          color: #fff;
+          font-size: 25px;
+          font-weight: 700;
+          padding: 0 0 30px 0;
+        }
+
+        .footer_subTitle {
+          color: #e0e0e0;
+          font-weight: 400;
+          font-size: 15px;
+          font-family: monospace;
+        }
+
+        .footer_sub {
+          color: #fff;
+          font-size: 15px;
+          font-weight: 600;
+          font-family: monospace;
+        }
+
+        .sub_title {
+            margin-top: 20px;
+        }
+
+        .whatsapp_link {
+            margin-top: 30px;
+        }
+      }
+
+      .footer_block1 {
+        gap: 50px;
+
+        .footer_logo {
+          width: 200px;
+        }
+
+        .footer_p {
+          width: 200px;
+          color: #ffffffc0;
+        }
+      }
+    }
+
+    hr {
+        width: 100%;
+        margin: 100px 0 30px 0;
+        opacity: 0.3;
+    }
+
+    .footer_block_end {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .footer_desc {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      .link_block {
+        display: flex;
+        width: 70px;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            width: 30px;
+            opacity: 0.7;
+        }
+      }
+    }
+  }
+}
