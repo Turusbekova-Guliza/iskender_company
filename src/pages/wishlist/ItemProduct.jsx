@@ -1,5 +1,5 @@
 import React from "react";
-import "./WishList.scss";
+import "./Wishlist.scss";
 import IconBasket from '../../assets/svg/icon basket delete.svg'
 import { deleteItem } from "../../redux/wishList/wishlistSlice";
 import { useDispatch } from "react-redux";

@@ -1,5 +1,5 @@
 import React from "react";
-import "./WishList.scss";
+import "./Wishlist.scss";
 import ItemProduct from "./ItemProduct";
 import { useSelector } from 'react-redux';
 
